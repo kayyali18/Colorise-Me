@@ -1,0 +1,27 @@
+{
+  "name": "colorise-me",
+  "version": "1.0.0",
+  "description": "An application that provides randomised color palettes for the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayyali18/Colorise-Me.git"
+  },
+  "keywords": [
+    "color-palette",
+    "color-pallete",
+    "color-palete",
+    "color",
+    "palette",
+    "picker"
+  ],
+  "author": "Ahmad Kayyali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayyali18/Colorise-Me/issues"
+  },
+  "homepage": "https://github.com/kayyali18/Colorise-Me#readme"
+}
