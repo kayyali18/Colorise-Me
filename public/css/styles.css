@@ -10,7 +10,6 @@
 
 .l-landing {
   align-items: center;
-  background-color: #171717;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -24,10 +23,25 @@
 }
 
 .m-form {
+  text-align: center;
 }
 
 .m-form input {
+  border: 4px solid #171717;
+  border-radius: 5px;
   display: block;
+  height: calc(20px + 2.5vw / 1);
+  text-align: center;
+  width: calc(80px + 15vw);
+}
+
+.m-form button {
+  border: 4px solid #171717;
+  border-radius: 50%;
+  font-size: calc(10px + 1vw);
+  height: calc(20px + 5vw);
+  width: calc(20px + 5vw);
+  margin: 3rem auto 0;
 }
 
 .colour-1 {
@@ -45,4 +59,12 @@
 
 .colour-4 {
   grid-area: four;
+}
+
+/* --------------- STATES -------------- */
+
+.m-form button:hover {
+  background-color: #171717;
+  border: 4px solid #fff;
+  color: white;
 }
