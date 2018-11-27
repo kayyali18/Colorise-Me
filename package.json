@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/kayyali18/Colorise-Me#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "sanitize.css": "^8.0.0"
   }
 }
