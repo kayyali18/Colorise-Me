@@ -1,2 +1,2 @@
 # Colorise-Me
-![Alt text](public/assets/imgs/MockUp.svg?raw=true "Title")
+![Alt text](public/assets/imgs/MockUp.svg "Title")
