@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/kayyali18/Colorise-Me/issues"
   },
-  "homepage": "https://github.com/kayyali18/Colorise-Me#readme"
+  "homepage": "https://github.com/kayyali18/Colorise-Me#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
