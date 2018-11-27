@@ -1,8 +1,38 @@
-.colour-1 {
-  fill: aqua;
+/* -------------- BASE ------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-svg {
-  height: 100px;
-  width: 100px;
+/* --------------- LAYOUT -------------- */
+
+.l-landing {
+  align-items: center;
+  background-color: #171717;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.m-house {
+  height: calc(150px + 15vw);
+}
+
+.colour-1 {
+  grid-area: one;
+  position: relative;
+}
+
+.colour-2 {
+  grid-area: two;
+}
+
+.colour-3 {
+  grid-area: three;
+}
+
+.colour-4 {
+  grid-area: four;
 }
