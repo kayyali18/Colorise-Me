@@ -12,12 +12,22 @@
   align-items: center;
   background-color: #171717;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   height: 100vh;
 }
 
+/* --------------- MODULES -------------- */
+
 .m-house {
   height: calc(150px + 15vw);
+}
+
+.m-form {
+}
+
+.m-form input {
+  display: block;
 }
 
 .colour-1 {
