@@ -20,7 +20,13 @@
 $(document).ready(function() {
   //select all colours
   $(".colour-2").on("click", event => {
-    console.log(event.target.style.fill);
+    $(".colour-2")
+      .addClass("animated pulse")
+      .delay(2000);
+
+    setTimeout(function() {
+      $(".colour-2").removeClass("animated pulse");
+    }, 1000);
   });
 
   //create button for random
