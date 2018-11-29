@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/kayyali18/Colorise-Me#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "knex": "^0.15.2",
     "pg": "^7.6.1",
