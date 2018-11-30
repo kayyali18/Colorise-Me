@@ -3,9 +3,7 @@
 module.exports = {
   development: {
     client: "pg",
-    connection: {
-      filename: "postgres://localhost/colourise"
-    },
+    connection: "postgres://localhost/colourise", //not nested
     migrations: {
       directory: "./db/migrations"
     },

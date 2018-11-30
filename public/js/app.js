@@ -45,3 +45,13 @@ $(document).ready(function() {
 
   //return string
 });
+
+class ColouredBox {
+  constructor() {
+    this.colour = this.randomColour();
+  }
+
+  randomColour() {
+    return "#" + Math.floor(Math.random() * 16777215).toString(16);
+  }
+}
