@@ -19,18 +19,22 @@
   <body>
     <nav class="m-nav l-nav"><h1 class="title">Colourise Me</h1></nav>
     <main>
-      <section class="l-landing colour-5">
-        <form class="m-form">
+      <section class="l-landing">
+        <form class="m-form palette-form">
           <input
             class="m-btn"
             type="text"
-            placeholder="Search By Hex #"
-            aria-label="Enter Hex Value"
+            placeholder="Save this palette"
+            aria-label="Enter Palette Name"
           />
+          <select>
+            <option>Select ME</option>
+            <option>Select ME 2</option>
+          </select>
           <button
             class="m-btn-circle"
             type="submit"
-            aria-label="Submit Hex Value"
+            aria-label="Submit Palette Name"
           >
             GO!
           </button>
@@ -145,6 +149,25 @@
         >
           Colourise Me
         </button>
+        <form class="m-form project-form">
+          <input
+            class="m-btn"
+            type="text"
+            placeholder="Project Name"
+            aria-label="Enter Project Name"
+          />
+          <select>
+            <option>Select ME</option>
+            <option>Select ME 2</option>
+          </select>
+          <button
+            class="m-btn-circle"
+            type="submit"
+            aria-label="Submit Palette Name"
+          >
+            GO!
+          </button>
+        </form>
       </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
