@@ -18,6 +18,38 @@
 // }
 
 $(document).ready(function() {
+  class ColouredBox {
+    constructor() {
+      this.colour = this.randomColour();
+    }
+
+    randomColour() {
+      return "#" + Math.floor(Math.random() * 16777215).toString(16);
+    }
+  }
+
+  function genColours() {
+    for (let i = 0; i < colours.length; i++) {
+      let hex = new ColouredBox().colour;
+      colours[i].style.fill = hex;
+      colours[i].id = hex;
+    }
+  }
+
+  var projectSelect = $("project-select")
+    .find(":selected")
+    .text();
+  var randomBtn = $(".randomise");
+
+  var colours = $(".colour").toArray();
+  genColours();
+  randomBtn.on("click", function() {
+    genColours();
+  });
+  $("form").on("submit", function(event) {
+    event.preventDefault();
+    projectSelect = $("select option:selected").val();
+  });
   //select all colours
   $(".colour-2").on("click", event => {
     $(".colour-2")
@@ -45,13 +77,3 @@ $(document).ready(function() {
 
   //return string
 });
-
-class ColouredBox {
-  constructor() {
-    this.colour = this.randomColour();
-  }
-
-  randomColour() {
-    return "#" + Math.floor(Math.random() * 16777215).toString(16);
-  }
-}
